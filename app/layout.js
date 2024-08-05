@@ -6,7 +6,7 @@ import { AuthContextProvider } from "./context/AuthContext";
 
 const inter = Inter({ subsets: ["latin"] });
 
-
+import { SpeedInsights } from "@vercel/speed-insights/next"
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
