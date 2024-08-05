@@ -78,6 +78,7 @@ npm run dev
 5. Open http://localhost:3000 with your browser to see the result.
 
 ### Project Structure
+```bash
 .
 ├── app
 │   ├── components
@@ -95,6 +96,7 @@ npm run dev
 ├── README.md
 ├── package.json
 └── ...
+```
 
 ## Usage
 
