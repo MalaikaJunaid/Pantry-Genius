@@ -34,16 +34,17 @@ Pantry Genius is an ultimate pantry management system that helps you keep track 
 ```bash
 git clone https://github.com/your-username/pantry-genius.git
 cd pantry-genius
+```
 
 2. Install dependencies
 ```bash
-Copy code
 npm install
+```
 
 3. Set up Firebase
 Create a Firebase project in the Firebase Console.
 Copy the Firebase configuration and replace it in the firebase.js file.
-javascript
+```bash
 // firebase.js
 import { initializeApp } from "firebase/app";
 import { getAuth } from "firebase/auth";
@@ -66,11 +67,13 @@ const firestore = getFirestore(app);
 const storage = getStorage(app);
 
 export { app, auth, firestore, storage };
+```
 
 4. Running the Application
 Start the development server
 ```bash
 npm run dev
+```
 
 5. Open http://localhost:3000 with your browser to see the result.
 
