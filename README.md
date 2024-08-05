@@ -101,8 +101,8 @@ npm run dev
 ## Usage
 
 ### Authentication
-Login with Google: Use the Google authentication button to sign in.
-Logout: Use the logout button to sign out.
+- Login with Google: Use the Google authentication button to sign in.
+- Logout: Use the logout button to sign out.
 
 ### Inventory Management
 - Add Item: Use the add item form to add new items to your pantry.
